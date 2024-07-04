@@ -1,0 +1,8 @@
+# InterfaceResolver configuration file
+#
+# File format:
+# dll-path-of-interface*fully-qualified-interface-name*dll-path-of-implementation*fully-qualified-class-name
+#
+# Uncommment one of the two following lines to change the implementation for the interface IEmailSender
+EmailSenderInterfaces.dll*EmailSenderInterfaces.IEmailSender*..\..\..\..\EmailSenderImplementation1\bin\Debug\net7.0\EmailSenderImplementation1*EmailSenderImplementation1.EmailSenderIta
+# EmailSenderInterfaces.dll*EmailSenderInterfaces.IEmailSender*..\..\..\..\EmailSenderImplementation2\bin\debug\net7.0\EmailSenderImplementation2*EmailSenderImplementation2.EmailSenderEng

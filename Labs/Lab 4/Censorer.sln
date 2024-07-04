@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34302.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMessage", "IMessage\IMessage.csproj", "{ECFC14E5-7D81-4770-83CB-DC6F8DA078A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{B70C356E-4ADD-4254-8796-6208D9731D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Censor", "Censorer\Censor.csproj", "{4C1DA3CC-9302-40E0-8C10-6B695F7492D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECFC14E5-7D81-4770-83CB-DC6F8DA078A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFC14E5-7D81-4770-83CB-DC6F8DA078A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFC14E5-7D81-4770-83CB-DC6F8DA078A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFC14E5-7D81-4770-83CB-DC6F8DA078A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70C356E-4ADD-4254-8796-6208D9731D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70C356E-4ADD-4254-8796-6208D9731D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70C356E-4ADD-4254-8796-6208D9731D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70C356E-4ADD-4254-8796-6208D9731D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1DA3CC-9302-40E0-8C10-6B695F7492D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1DA3CC-9302-40E0-8C10-6B695F7492D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1DA3CC-9302-40E0-8C10-6B695F7492D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1DA3CC-9302-40E0-8C10-6B695F7492D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37C175AC-23C5-4E07-B163-C3E7BCFDCF11}
+	EndGlobalSection
+EndGlobal
